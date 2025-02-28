@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                   // Use ECMAScript 6
+      "module": "CommonJS",               // Use CommonJS modules
+      "strict": true,                      // Enable strict type checking
+      "outDir": "./dist",                  // Output compiled files here
+      "rootDir": "./src",                  // Source files location
+      "resolveJsonModule": true,           // Allows importing JSON modules
+      "esModuleInterop": true,             // Ensure compatibility with ES modules
+      "lib": ["ES6", "DOM"]                // Include ES6 and DOM APIs
+    },
+    "include": ["src/**/*.ts"],            // Include all TypeScript files in src/
+    "exclude": ["node_modules", "dist"]    // Exclude unnecessary files
+  }
+  

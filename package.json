@@ -1,0 +1,20 @@
+{
+    "name": "playwright-demoqa-login-test",
+    "version": "1.0.0",
+    "description": "Automated login tests for DemoQA using Playwright",
+    "main": "src/loginTest.js",
+    "scripts": {
+        "test": "npx playwright test"
+    },
+    "author": "Reena Pasunuri",
+    "license": "MIT",
+    "devDependencies": {
+        "@playwright/test": "^1.42.0",
+        "@types/node": "^22.13.5",
+        "jest": "^29.7.0",
+        "playwright": "^1.50.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.3"
+    },
+    "keywords": []
+}
